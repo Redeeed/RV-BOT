@@ -7,7 +7,7 @@ module.exports.run = async (bot,message,args) => {
     
     let commandmessage = ('gm 0 '+`${nickname}`)
 
-    if(message.author.tag !== 'Fuer4t#7067') return message.channel.send("У вас нет прав");
+    if(message.author.tag !== 'Fuer4t#7067' || 'Verzweiflung#1910') return message.channel.send("У вас нет прав");
         channelid.send("sdh")
         channelid.send(commandmessage);
     
